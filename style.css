@@ -176,3 +176,38 @@ transition: .5s ease;
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+/* skill section style */
+.skill{
+    width: 100%;
+    height: 50vh;
+}
+.skill h2{
+    margin-bottom: 5rem;
+
+}
+.skill-box{
+   padding: 5px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    transition: 2s ease;
+   
+}
+.skill-box h3:hover{
+    border-color:var(--main-color) ;
+    transform: scale(1.02);
+}
+.skill-box h3{
+    padding: 20px;
+    font-size: 2.6rem;
+    border: .2rem solid var(--bg-color);
+    background:var(--second-bg-color);
+    border-radius: 20%;
+}
+.bx-tada{
+    color:var(--main-color);
+    font-size: 80px;
+
+}
