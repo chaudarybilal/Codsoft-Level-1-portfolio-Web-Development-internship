@@ -10,10 +10,10 @@
 
 }
 :root{
-    --bg-color:#1f242d;
-    --second-bg-color:#323946;
-    --text-color:#fff;
-    --main-color:#0ef;
+    --bg-color:#9973be;
+    --second-bg-color:#242582;
+    --text-color:#64c72;
+    --main-color:#0ad3ff;
 }
 html{
     font-size: 62.5%;
@@ -43,7 +43,7 @@ body{
      
 }
 .logo{
-    font-size:  2.5rem;
+    font-size:  3.5rem;
     color: var(--text-color);
 font-weight: 600;
 cursor: default;    
@@ -74,7 +74,7 @@ display: none;
 
 }    
 .home-content h3{
-    font-size: 3.2rem;
+    font-size: 2rem;
     font-weight: 700;
 
 }
@@ -88,7 +88,7 @@ span{
 
 }
 .home-content h1{
-    font-size: 5.6rem;
+    font-size: 4.6rem;
     font-weight: 700;
     line-height: 1.3;
 }
@@ -98,19 +98,19 @@ border-radius: 50%;
 
 }
 .home-content p{
-font-size: 1.6rem;
+font-size: 2rem;
 }
 .social-media a{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 4rem;
-    height: 4rem;
-    background: transparent;
-    border: .2rem solid var(--main-color);
+    width: 5rem;
+    height: 5rem;
+    /* background: transparent; */
+    border: .2rem solid black;
     border-radius: 50%;
     font-size: 2rem;
-    color:var(--main-color);
+    color:black;
     margin: 3rem 1.5rem 3rem 0;
 transition: .5s ease;
 
@@ -149,7 +149,7 @@ transition: .5s ease;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 .about-img img{
     /* width: 35vw; */
@@ -203,7 +203,7 @@ transition: .5s ease;
     padding: 20px;
     font-size: 2.6rem;
     border: .2rem solid var(--bg-color);
-    background:var(--second-bg-color);
+    background:var(--bg-color);
     border-radius: 20%;
 }
 .bx-tada{
@@ -214,7 +214,7 @@ transition: .5s ease;
 /* project style */
 
 .project{
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 .project h2{
     margin-bottom:4rem ;
@@ -299,13 +299,14 @@ align-items: center;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-    } input,
+    }  
+    input,
     .contact form textarea{
         width: 100%;
         padding: 1.5rem;
         font-size:1.6rem;
     color: var(--text-color);
-    background: var(--second-bg-color);
+    background: #553d67;
     border-radius: .8rem;
     margin: .7rem 0;
     }
@@ -325,11 +326,11 @@ align-items: center;
     align-items:center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     
     }
     .footer-text p{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .footer-icon a{
         display: inline-flex;
@@ -341,7 +342,7 @@ align-items: center;
         transition: .5s ease;
     }
     .footer-icon a i{
-        font-size: 2.4rem;
+        font-size: 3.4rem;
         color: var(--second-bg-color);
     }
     .footer-icon a:hover{
