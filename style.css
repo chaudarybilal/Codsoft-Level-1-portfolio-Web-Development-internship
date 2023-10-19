@@ -10,10 +10,10 @@
 
 }
 :root{
-    --bg-color:#9973be;
-    --second-bg-color:#242582;
+    --bg-color:#ddacf5;
+    --second-bg-color:#fff;
     --text-color:#64c72;
-    --main-color:#0ad3ff;
+    --main-color:#64379f;
 }
 html{
     font-size: 62.5%;
@@ -50,7 +50,7 @@ cursor: default;
 }
 
 .navbar a{
-    font-size:1.7rem;
+    font-size:1.8rem;
     color: var(--text-color);
     margin-left: 4rem;
 }
@@ -223,7 +223,7 @@ transition: .5s ease;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
      align-items: center ;
-     gap: 2.5rem;
+     gap: 5.5rem;
 }
 .project-container .project-box{
     position: relative;
@@ -299,6 +299,7 @@ align-items: center;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        /* border: 2px solid red; */
     }  
     input,
     .contact form textarea{
@@ -306,15 +307,18 @@ align-items: center;
         padding: 1.5rem;
         font-size:1.6rem;
     color: var(--text-color);
-    background: #553d67;
+    background:var(--second-bg-color);
     border-radius: .8rem;
     margin: .7rem 0;
+    
     }
     .contact form .input-box input{
         width: 49%;
+       
     
     }
     .contact form .btn{
+       
         margin-top: 2rem;
         cursor: pointer;
         
