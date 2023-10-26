@@ -42,6 +42,10 @@ body{
     z-index: 100;
      
 }
+.header.sticky{
+    border-bottom: .1rem solid rgba(0, 0, 0, .2);
+}
+
 .logo{
     font-size:  3.5rem;
     color: var(--text-color);
@@ -352,3 +356,5 @@ align-items: center;
     .footer-icon a:hover{
         box-shadow:  0 0 1rem var(--main-color);
     }
+
+    /* media query for responsive design */
