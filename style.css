@@ -183,7 +183,8 @@ transition: .5s ease;
 /* skill section style */
 .skill{
     width: 100%;
-    height: 50vh;
+    height: 60vh;
+    /* border: 1px solid red; */
 }
 .skill h2{
     margin-bottom: 5rem;
@@ -358,3 +359,128 @@ align-items: center;
     }
 
     /* media query for responsive design */
+
+    @media(max-width:1200px){
+        html{
+            font-size: 55%;
+        }
+    }
+    @media(max-width:991px){
+       .header{
+        padding: 2rem 3%;
+
+       }
+       section{
+        padding: 10rem 3% 2rem;
+       }
+       .footer{
+        padding: 2rem 3%;
+       }
+       .skill{
+        padding-bottom:7rem ;
+       }
+       .project{
+        padding-bottom: 7rem;
+       }
+       .contact{
+        min-height: auto;
+       }
+    }
+
+    @media(max-width:768px){
+        #menu-icon{
+            display: block;
+        }
+        .navbar{
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            padding: 1rem 3%;
+            background-color: var(--bg-color);
+            border-top:.1rem solid rgba(0, 0, 0,rgba(0, 0, 0, .2)) ;
+            box-shadow: 0 .5rem 1rem  rgba(0, 0, 0,rgba(0, 0, 0, .2)) ;
+            display: none;
+        }
+        .navbar.active{
+            display: block;
+        } 
+        .navbar a{
+            display: block;
+
+        }
+        .home{
+            margin-top: 80px;
+            flex-direction: column;
+
+        }
+        .home-content h3{
+            font-size: 2.6rem;
+
+        }
+        .home-content h1{
+             font-size:5rem;
+        }
+        .home-img img{
+            width: 50vw;
+            margin-top: 4rem;
+
+
+        }
+        .about{
+            flex-direction: column-reverse;
+            margin-top: 80px;
+
+        }
+        .about img{
+            width: 50vw;
+            margin-top: 4rem;
+
+        }
+        .skill h2{
+            margin-bottom: 3rem;
+        }
+        .project h2{
+            /* padding-top: 10rem; */
+            margin-top: 180px;
+            margin-bottom: 3rem;
+        }
+        .project-container{
+            margin-top: 100px;
+            grid-template-columns: repeat(2, 1fr);
+
+        }
+
+    }
+    @media(max-width:617px){
+        .project-container{
+            grid-template-columns: 1fr;
+        }
+    }
+@media(max-width:450px){
+    html{
+        font-size: 50%;
+    }
+    .contact form .input-box input{
+        width: 100%;
+    }
+    .about{
+        margin-top: 120px;
+    }
+    .project{
+        margin-top: 300px;
+    }
+}
+@media(max-width:365){
+    .home-img{
+        width: 90vw;
+    }
+    .footer{
+        flex-direction: column-reverse;
+    }
+    .footer p{
+        text-align: center;
+        margin-top: 2rem;
+
+    }
+}
