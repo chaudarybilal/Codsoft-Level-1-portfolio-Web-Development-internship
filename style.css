@@ -35,7 +35,7 @@ body{
     left: 0;
     width: 100%;
     padding: 2rem  9%;
-    background: var(--bg-color);
+    background: #363062;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,12 +55,12 @@ cursor: default;
 
 .navbar a{
     font-size:1.8rem;
-    color: var(--text-color);
+    color: #F5F5F5;
     margin-left: 4rem;
 }
 .navbar a:hover ,
 .navbar a.active{
-    color: var(--main-color);
+    color: black;
 
 }
 #menu-icon{
